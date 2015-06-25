@@ -1,0 +1,40 @@
+{
+  "name": "typedoc-plugin-context",
+  "description": "TypeDoc plugin for providing additional context to Handlebars renderer.",
+  "version": "0.0.1",
+  "homepage": "",
+  "main": "bin/plugin.js",
+  "author": {
+    "name": "Ivan Drinchev",
+    "url": "http://www.drinchev.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drinchev/typedoc-plugin-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drinchev/typedoc-plugin-context/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/drinchev/typedoc-plugin-context/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-string-replace": "^1.0.0",
+    "grunt-ts": "^3.0.0"
+  },
+  "files": [
+    "bin",
+    "LICENSE"
+  ],
+  "keywords": [
+    "typedoc", "typedocplugin"
+  ]
+}
