@@ -4,7 +4,7 @@ TypeDoc plugin for providing additional context to Handlebars renderer
 
 ## Usage
 
-`typedoc --context context.json`
+`typedoc --context '{ "variable": "value" }'`
 
 ## License
 
